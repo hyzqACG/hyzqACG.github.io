@@ -1,18 +1,207 @@
-<!DOCTYPE html>
+<meta http-equiv="Content-Type"content="text/html; charset=UTF-8"/>
+<style>
+div#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -10;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  zoom: 1;
+ 
+  opacity:1;
+  transition: opacity 1s linear;
+  -moz-transition: opacity 1s linear;
+  -webkit-transition: opacity 1s linear;
+  -o-transition: opacity 1s linear;
+}
+* {
+  box-sizing: border-box;
+}
 
-<html lang="en" nighteye="disabled"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>幻雨之秋网址发布页</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="author" content="cangku">
-  <meta name="description" content="幻雨之秋网址发布页">
-  <meta name="keywords" content="cangku">
-  <link rel="stylesheet" href="./幻雨之秋网址发布页_files/style.css">
-</head>
+html,
+body {
+  height: 100%;
+}
 
-<body>
-  <div class="container">
+.container {
+  margin: auto;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  line-height: 1.4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #f9f9f9; */
+  height: 100%;
+  background-image: url("preview1.jpg");
+  background-size: cover;
+
+}
+
+.card {
+  background: #fff;
+  background-size: contain;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px -5px rgba(60, 60, 60, 0.2);
+  text-align: center;
+  padding: 30px 60px;
+}
+.card img {
+  background-color: #dddfe6;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  margin: auto auto 15px;
+  display: block;
+}
+.card h1 {
+  font-size: 22px;
+  margin: 10px auto 0;
+  letter-spacing: 1px;
+}
+.card h2 {
+  margin: auto;
+  color: #b1b6c6;
+  font-weight: 300;
+  font-size: 14px;
+}
+.card .button {
+  display: block;
+  text-decoration: none;
+  background: #1856fb;
+  color: #f9f9f9;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 700;
+  min-width: 200px;
+  transition: 0.2s;
+}
+.card .button span {
+  font-size: 20px;
+  line-height: 1;
+  vertical-align: top;
+}
+.card .button:hover {
+  background: #3b70fc;
+}
+
+
+
+.card .button1 {
+  display: block;
+  text-decoration: none;
+  background: #000000;
+  color: #f9f9f9;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 700;
+  min-width: 200px;
+  transition: 0.2s;
+}
+.card .button1 span {
+  font-size: 20px;
+  line-height: 1;
+  vertical-align: top;
+}
+.card .button1:hover {
+  background: #535353;
+}
+
+
+
+.card .button2 {
+  display: block;
+  text-decoration: none;
+  background: #ff6600;
+  color: #f9f9f9;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 700;
+  min-width: 200px;
+  transition: 0.2s;
+}
+.card .button2 span {
+  font-size: 20px;
+  line-height: 1;
+  vertical-align: top;
+}
+.card .button2:hover {
+  background: #ff8146;
+}
+
+
+
+
+.card .button3 {
+  display: block;
+  text-decoration: none;
+  background: #ff0000;
+  color: #f9f9f9;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 700;
+  min-width: 200px;
+  transition: 0.2s;
+}
+.card .button3 span {
+  font-size: 20px;
+  line-height: 1;
+  vertical-align: top;
+}
+.card .button3:hover {
+  background: #ff5d5d;
+}
+
+
+
+
+.card .button4 {
+  display: block;
+  text-decoration: none;
+  background: #3385ff;
+  color: #f9f9f9;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 700;
+  min-width: 200px;
+  transition: 0.2s;
+}
+.card .button4 span {
+  font-size: 20px;
+  line-height: 1;
+  vertical-align: top;
+}
+.card .button4:hover {
+  background: #95b1ff;
+}
+
+</style>
+
+
+<!-- <h1><a href="http://gouji.org/?post=317">代码出处</a></h1> -->
+<div id="bg"></div>
+<div class="container">
     <div class="card">
       <img src="./幻雨之秋网址发布页_files/5cc9bc7c30814.jpg" alt="Cangku">
       <h1>幻雨之秋</h1>
@@ -28,6 +217,28 @@
       <a class="button4" href="https://www.aplaybox.com/u/606792888" target="_blank">点击访问</a>
       <h2>模之屋</h2>
     </div>
-  </div>
 
-</body><div style="pointer-events: none; visibility: hidden; position: absolute;"></div><div style="all: initial;"><div></div></div></html>
+
+<script>
+// 定义图片路径 {num} 为 可变的图片序号
+var bgImgUrl = 'http://api.asilu.com/cdn/img/bg/{num}.jpg', bgNum,
+    bgImgArr = [],
+    bgDiv = document.getElementById("bg");
+// 组合数组 此处 200 为 图开始序号 结束 210
+for (var i=200; i <= 210; i++){
+    bgImgArr.push(bgImgUrl.replace('{num}', i));
+}
+setBGimg();
+function setBGimg(d){
+    if(!bgNum || bgNum >= bgImgArr.length) bgNum = 0;
+    bgDiv.style.opacity = .001;
+    setTimeout(function(){
+        bgDiv.style.backgroundImage = 'url('+ bgImgArr[bgNum] +')';
+        bgNum++;
+        bgDiv.style.opacity = 1;
+    }, 1000);
+    if(typeof d == 'undefined')
+    setInterval(function(){setBGimg(true);}, 6000);
+    // 上一行的 6000 是背景图片自动切换时间(单位 毫秒)
+}
+</script>

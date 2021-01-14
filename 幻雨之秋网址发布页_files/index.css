@@ -41,9 +41,17 @@ body {
   /* background-size: cover; */
 
 }
+h1{
+
+  color:#265ffd;
+
+}
+
+
 
 .card {
-  background: #fff;
+  background: rgba(255, 255, 255, 0.7);
+  
   background-size: contain;
   border-radius: 10px;
   box-shadow: 0 10px 30px -5px rgba(60, 60, 60, 0.2);
@@ -193,3 +201,4 @@ body {
 .card .button4:hover {
   background: #95b1ff;
 }
+

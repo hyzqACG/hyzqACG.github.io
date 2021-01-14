@@ -23,13 +23,17 @@
     </div>
 
 
+
 <script>
 // 定义图片路径 {num} 为 可变的图片序号
-var bgImgUrl = 'http://api.asilu.com/cdn/img/bg/{num}.jpg', bgNum,
+// http://api.asilu.com/cdn/img/bg/{num}.jpg
+// API更改 2021年1月14日08:19:33
+// http://api.wod.xyz/Image/GetImage?cid=26&count=20&start=0&Type=1&getlastone=0
+var bgImgUrl = 'http://api.wod.xyz/Image/GetImage?cid=26&count={num}&start=0&Type=1&getlastone=0', bgNum,
     bgImgArr = [],
     bgDiv = document.getElementById("bg");
 // 组合数组 此处 200 为 图开始序号 结束 210
-for (var i=200; i <= 210; i++){
+for (var i=100000; i <= 200000; i++){
     bgImgArr.push(bgImgUrl.replace('{num}', i));
 }
 setBGimg();

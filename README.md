@@ -1,5 +1,12 @@
 # hyzqACG.github.io
 
+[点我访问](https://hyzqacg.github.io/)
+
+
+效果图：
+![QQ截图20210311162049](https://user-images.githubusercontent.com/70384877/110757053-e938b100-8285-11eb-98fe-dea54ec69357.png)
+
+
 ### 更新时间：
 ### 2021年1月14日08:53:49 
 ####  更新内容：

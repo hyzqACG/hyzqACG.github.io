@@ -29,7 +29,9 @@
 // http://api.asilu.com/cdn/img/bg/{num}.jpg
 // API更改 2021年1月14日08:19:33
 // http://api.wod.xyz/Image/GetImage?cid=26&count=20&start=0&Type=1&getlastone=0
-var bgImgUrl = 'http://api.wod.xyz/Image/GetImage?cid=26&count=0&start={num}&Type=1&getlastone=0', bgNum,
+// http://api.wod.xyz/Image/GetImage?cid=26&count=0&start={num}&Type=1&getlastone=0
+// https://tu.ltyuanfang.cn/api/fengjing.php    
+var bgImgUrl = 'https://tu.ltyuanfang.cn/api/fengjing.php', bgNum,
     bgImgArr = [],
     bgDiv = document.getElementById("bg");
 // 组合数组 此处 200 为 图开始序号 结束 210
@@ -46,7 +48,7 @@ function setBGimg(d){
         bgDiv.style.opacity = 1;
     }, 1000);
     if(typeof d == 'undefined')
-    setInterval(function(){setBGimg(true);}, 50000);
+    setInterval(function(){setBGimg(true);}, 500000);
     // 上一行的 6000(已改50000) 是背景图片自动切换时间(单位 毫秒)
 }
 </script>
